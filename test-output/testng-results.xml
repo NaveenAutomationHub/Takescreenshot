@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9662" started-at="2018-07-04T08:18:07Z" finished-at="2018-07-04T08:18:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9662" started-at="2018-07-04T08:18:07Z" finished-at="2018-07-04T08:18:16Z">
+      <class name="com.qa.screenshots.LaunchingNewWebSite">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.qa.screenshots.LaunchingNewWebSite@74ad1f1f]" name="beforeMethod" is-config="true" duration-ms="5099" started-at="2018-07-04T08:18:07Z" finished-at="2018-07-04T08:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="newPageLaunch()[pri:0, instance:com.qa.screenshots.LaunchingNewWebSite@74ad1f1f]" name="newPageLaunch" duration-ms="4546" started-at="2018-07-04T08:18:12Z" finished-at="2018-07-04T08:18:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPageLaunch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.qa.screenshots.LaunchingNewWebSite@74ad1f1f]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-07-04T08:18:16Z" finished-at="2018-07-04T08:18:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=newPageLaunch status=SUCCESS method=LaunchingNewWebSite.newPageLaunch()[pri:0, instance:com.qa.screenshots.LaunchingNewWebSite@74ad1f1f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.screenshots.LaunchingNewWebSite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
